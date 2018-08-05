@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84E4076F2114F73700834A37 /* EateriesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4076E2114F73700834A37 /* EateriesDetailViewController.swift */; };
+		84E4077121150C3200834A37 /* Restuarant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4077021150C3200834A37 /* Restuarant.swift */; };
 		84F26BA721124C300047F4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F26BA621124C300047F4FE /* AppDelegate.swift */; };
-		84F26BA921124C300047F4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F26BA821124C300047F4FE /* ViewController.swift */; };
 		84F26BAC21124C300047F4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F26BAA21124C300047F4FE /* Main.storyboard */; };
 		84F26BAE21124C300047F4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F26BAD21124C300047F4FE /* Assets.xcassets */; };
 		84F26BB121124C300047F4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F26BAF21124C300047F4FE /* LaunchScreen.storyboard */; };
+		84F26BB921124CE90047F4FE /* EateriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F26BB821124CE90047F4FE /* EateriesTableViewController.swift */; };
+		84F26BBB211250D90047F4FE /* EateriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F26BBA211250D90047F4FE /* EateriesTableViewCell.swift */; };
+		84F286B421166E8D00629E96 /* EateriesDeteilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F286B321166E8D00629E96 /* EateriesDeteilTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84E4076E2114F73700834A37 /* EateriesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EateriesDetailViewController.swift; sourceTree = "<group>"; };
+		84E4077021150C3200834A37 /* Restuarant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restuarant.swift; sourceTree = "<group>"; };
 		84F26BA321124C300047F4FE /* AppUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F26BA621124C300047F4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84F26BA821124C300047F4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84F26BAB21124C300047F4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F26BAD21124C300047F4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F26BB021124C300047F4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F26BB221124C300047F4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F26BB821124CE90047F4FE /* EateriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EateriesTableViewController.swift; sourceTree = "<group>"; };
+		84F26BBA211250D90047F4FE /* EateriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EateriesTableViewCell.swift; sourceTree = "<group>"; };
+		84F286B321166E8D00629E96 /* EateriesDeteilTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EateriesDeteilTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				84F26BA621124C300047F4FE /* AppDelegate.swift */,
-				84F26BA821124C300047F4FE /* ViewController.swift */,
 				84F26BAA21124C300047F4FE /* Main.storyboard */,
+				84E4077021150C3200834A37 /* Restuarant.swift */,
+				84F26BB821124CE90047F4FE /* EateriesTableViewController.swift */,
+				84F286B621166EC500629E96 /* Detail */,
+				84F26BBA211250D90047F4FE /* EateriesTableViewCell.swift */,
 				84F26BAD21124C300047F4FE /* Assets.xcassets */,
 				84F26BAF21124C300047F4FE /* LaunchScreen.storyboard */,
 				84F26BB221124C300047F4FE /* Info.plist */,
 			);
 			path = AppUITableView;
+			sourceTree = "<group>";
+		};
+		84F286B621166EC500629E96 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				84E4076E2114F73700834A37 /* EateriesDetailViewController.swift */,
+				84F286B321166E8D00629E96 /* EateriesDeteilTableViewCell.swift */,
+			);
+			name = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F26BA921124C300047F4FE /* ViewController.swift in Sources */,
+				84E4077121150C3200834A37 /* Restuarant.swift in Sources */,
 				84F26BA721124C300047F4FE /* AppDelegate.swift in Sources */,
+				84E4076F2114F73700834A37 /* EateriesDetailViewController.swift in Sources */,
+				84F26BB921124CE90047F4FE /* EateriesTableViewController.swift in Sources */,
+				84F286B421166E8D00629E96 /* EateriesDeteilTableViewCell.swift in Sources */,
+				84F26BBB211250D90047F4FE /* EateriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +321,7 @@
 				84F26BB721124C300047F4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
